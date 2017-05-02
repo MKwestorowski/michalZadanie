@@ -1,0 +1,209 @@
+.container {
+    width:90%;
+    margin: auto
+;
+}
+
+
+.forBoxContent{
+    max-width: 250px;
+    max-height: 250px;
+    margin:auto;
+    position: relative;
+;
+}
+.menuTexts {
+    width: 100%;
+}
+
+
+.relative {
+    position:relative;
+    float: left;
+}
+
+img {
+    border-radius: 5px;
+}
+
+.absolute-text {
+    position:absolute;
+    bottom: 40px;
+    font-size:20px;
+    background:rgba(251,251,251,0.5);
+    width: 100%;
+    margin: 5px;
+}
+
+.downDivTextLeft {
+    position: absolute;
+    bottom: 0;
+    font-size: 15px;
+    background:rgba(251,251,251,0.5);
+
+}
+.downDivText {
+    position: absolute;
+    bottom: 0;
+    right:0;
+    font-size: 15px;
+    background:rgba(251,251,251,0.5);
+    text-align: left
+    ;
+}
+
+
+
+.images {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+body {
+    background: #ecf0f1;
+}
+
+@media screen and (max-width: 768px) {
+   .relative {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        border-radius: 3px;
+
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    .newestText {
+        width: 45%;
+        float: left;
+        margin-left: 5%;
+    }
+    .mostPopularText {
+        width: 50%;
+        float: left;
+        color: #bdc1c4;
+    }
+
+    .newestLine {
+        width: 47%;
+        float: left;
+        border-bottom: 3px solid;
+        color: #2dcc70;
+        margin-left: 3%;
+
+    }
+    .mostPopularLine {
+        width: 50%;
+        float: left;
+        border-bottom: 3px solid;
+        color: #bdc1c4;
+    }
+    .line {
+        width: 100%;
+        float: left;
+    }
+
+}
+
+@media screen and (min-width: 769px)and (max-width: 1129px) {
+    .relative {
+        width: 48%;
+        height: auto;
+        float: left;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-top: 20px;
+        border-radius: 10px;
+
+
+    }
+
+    .images {
+        margin:auto;
+    }
+
+    .newestText {
+        width:45%;
+        float: left;
+        margin-left: 5%;
+    }
+    .mostPopularText {
+        width: 50%;
+        float: left;
+        color: #bdc1c4;
+    }
+
+
+    nav {
+        text-align: center
+    ;
+    }
+
+    .newestLine {
+        width: 45%;
+        float: left;
+        border-bottom: 3px solid;
+        color: #2dcc70;
+        margin-left: 5%;
+
+    }
+    .mostPopularLine {
+        width: 50%;
+        float: left;
+        border-bottom: 3px solid;
+        color: #bdc1c4;
+    }
+    .line {
+        width: 100%;
+        float: left;
+    }
+
+
+
+}
+
+
+@media screen and (min-width: 1130px) {
+    .relative {
+        width: 33%;
+        float: left;
+        margin-top: 50px;
+        border-radius: 3px;
+    ;
+    }
+    .newestText {
+        width:20%;
+        float: left;
+        margin-left: 5%;
+    }
+    .mostPopularText {
+        width: 50%;
+        float: left;
+        margin-right: 10%;
+        color: #bdc1c4;
+    }
+
+    .newestLine {
+        width: 15%;
+        float: left;
+        border-bottom: 3px solid;
+        color: #2dcc70;
+        margin-left: 3%;
+
+    }
+    .mostPopularLine {
+        width: 78%;
+        float: left;
+        border-bottom: 3px solid;
+        color: #bdc1c4;
+    }
+    .line {
+        width: 100%;
+        float: left;
+    }
+
+}
